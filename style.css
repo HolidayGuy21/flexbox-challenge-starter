@@ -150,3 +150,15 @@ main article p {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* footer component */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', 'Helvetica Neue', Helvetica, sans-serif;
+}
