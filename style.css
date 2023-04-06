@@ -10,6 +10,27 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.outline-button {
+    text-decoration: none;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #2d2d2d;
+    border: 2.5px solid #000000;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.white {
+    border: 1px solid white;
+    color: white;
+}
+
+.dark {
+    border: 1px solid #2d2d2d;
+    color: #2d2d2d;
+}
+
 /* Header component */
 header {
     display: flex;
@@ -70,3 +91,39 @@ nav a {
         border-radius: 50%;
         border: #2d2d2d 3px solid;
     }
+
+    /* main content component */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bree Serif', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+main h2 {
+    margin: 1rem 0;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+main article img {
+    width: 70%;
+    border-radius: 50%;
+    border: #2d2d2d 3px solid;
+}
+
+main article h3 {
+    margin: 1rem 0;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+main article p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
