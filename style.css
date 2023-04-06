@@ -127,3 +127,26 @@ main article p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
+
+/* Social media links */
+
+#social-links {
+    background: #2d2d2d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#social-links p {
+    font-family: 'Bree Serif', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+#social-links > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
