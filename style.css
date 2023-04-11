@@ -162,3 +162,58 @@ footer p {
     font-size: 1.2rem;
     font-family: 'Bree Serif', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+/* tablet styles */
+
+@media only screen and (min-width: 550px) {
+header {
+    margin-top: 0.5rem;
+    justify-content: space-around;
+flex-direction: row;
+align-items: center;
+}
+#brand {
+    margin-left: 1rem;
+    width: 20%;
+    margin-bottom: 0rem;
+}
+}
+
+@media only screen and (min-width:800px){
+    #hero img {
+        width: 35%;
+        border: #2d2d2d 3px solid;
+    }
+}
+
+@media only screen and (min-width:800px){
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 0.5rem;
+    }
+    main h2 {
+        width: 100%;
+        text-align: center;
+    }
+main article {
+    width: 33.33%
+}
+}
+
+/* desktop style */
+@media only screen and (min-width: 1000px) {
+    header {
+       padding: 0.5 0 1rem; 
+       justify-content: space-between;
+    }
+    #brand {
+      width: 10%; 
+    }
+    header nav {
+        width: auto;
+    }
+    header nav a {
+        margin-right: 1.5rem;
+    }
+    }
